@@ -12,7 +12,19 @@
 <meta content="#5670d4" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="http://lwlss.github.io/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/markdown-article/" type="text/html">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+    },
+    displayAlign: 'left', // Change this to 'center' to center equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}}
+    }
+});
+</script><!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/markdown-article/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -83,6 +95,8 @@ Glogist<span class="o">&lt;-</span><span class="kr">function</span><span class="
 
 
 <p>I'm not sure how to write math with <a href="https://www.mathjax.org/">MathJax</a>.</p>
+<p>Inline: \( \frac{dx}{dt} = rx (1 - \frac{x}{K}) \). 
+Display: $$ \frac{dx}{dt} = rx (1 - \frac{x}{K}) $$</p>
 </div>
     </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/html-article/" class="u-url">HTML article</a></h1>
@@ -110,7 +124,7 @@ Glogist<span class="o">&lt;-</span><span class="kr">function</span><span class="
 
 <p>
 And it's possible to write maths with <a href="https://www.mathjax.org/">MathJax</a>: 
-$$\(e^{ix} = \cos x + i\sin x\)$$
+\( \frac{dx}{dt} = rx (1 - \frac{x}{K}) \)
 </p>
 </article>
 </div>
@@ -121,9 +135,20 @@ $$\(e^{ix} = \cos x + i\sin x\)$$
 
 
 
-
-
-        </div>
+            <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script><script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+    },
+    displayAlign: 'left', // Change this to 'center' to center equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}}
+    }
+});
+</script>
+</div>
         <!--End of body content-->
 
         <footer id="footer">
