@@ -1,0 +1,4 @@
+Sitemap: http://lwlss.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: lwlss.github.io
