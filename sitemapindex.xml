@@ -6,15 +6,27 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>http://lwlss.github.io/categories/mathjax-code-math.xml</loc>
+  <lastmod>2016-02-22T22:38:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://lwlss.github.io/categories/mathjax-math-code.xml</loc>
+  <lastmod>2016-02-22T22:46:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://lwlss.github.io/categories/mathjax.xml</loc>
+  <lastmod>2016-02-22T22:51:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://lwlss.github.io/galleries/rss.xml</loc>
-  <lastmod>2016-02-22T22:18:00Z</lastmod>
+  <lastmod>2016-02-22T22:41:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://lwlss.github.io/rss.xml</loc>
-  <lastmod>2016-02-22T22:18:00Z</lastmod>
+  <lastmod>2016-02-22T22:51:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://lwlss.github.io/sitemap.xml</loc>
-  <lastmod>2016-02-22T22:18:00Z</lastmod>
+  <lastmod>2016-02-22T22:51:00Z</lastmod>
  </sitemap>
 </sitemapindex>

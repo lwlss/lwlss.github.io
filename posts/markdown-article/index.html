@@ -11,7 +11,19 @@
 <meta content="#5670d4" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
 <link rel="canonical" href="http://lwlss.github.io/posts/markdown-article/">
-<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Conor Lawless">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+    },
+    displayAlign: 'left', // Change this to 'center' to center equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}}
+    }
+});
+</script><!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Conor Lawless">
 <link rel="prev" href="../html-article/" title="HTML article" type="text/html">
 <meta property="og:site_name" content="lwlss">
 <meta property="og:title" content="Markdown article">
@@ -22,6 +34,7 @@ It's possible to write code:
 ">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2016-02-14T13:48:52Z">
+<meta property="article:tag" content="mathjax">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -102,13 +115,28 @@ Glogist<span class="o">&lt;-</span><span class="kr">function</span><span class="
 
 
 <p>I'm not sure how to write math with <a href="https://www.mathjax.org/">MathJax</a>.</p>
+<p>Inline: \( \frac{dx}{dt} = rx (1 - \frac{x}{K}) \). 
+Display: $$ \frac{dx}{dt} = rx (1 - \frac{x}{K}) $$</p>
 </div>
     </div>
-    <aside class="postpromonav"><nav><ul class="pager hidden-print">
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags"></ul>
+<ul class="pager hidden-print">
 <li class="previous">
                 <a href="../html-article/" rel="prev" title="HTML article">Previous post</a>
             </li>
-        </ul></nav></aside></article>
+        </ul></nav></aside><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script><script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+    },
+    displayAlign: 'left', // Change this to 'center' to center equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}}
+    }
+});
+</script></article>
 </div>
         <!--End of body content-->
 

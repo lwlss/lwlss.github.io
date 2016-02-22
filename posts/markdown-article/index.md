@@ -2,7 +2,7 @@
 .. title: Markdown article
 .. slug: markdown-article
 .. date: 2016-02-14 13:48:52 UTC
-.. tags: 
+.. tags: mathjax
 .. category: 
 .. link: 
 .. description: 
@@ -25,3 +25,6 @@ It's possible to write code:
 	Glogist<-function(K,r,g,v,t) K/(1+(-1+(K/g)^v)*exp(-r*v*t))^(1/v)
 
 I'm not sure how to write math with [MathJax](https://www.mathjax.org/).
+
+Inline: \\( \frac{dx}{dt} = rx (1 - \frac{x}{K}) \\). 
+Display: $$ \frac{dx}{dt} = rx (1 - \frac{x}{K}) $$
