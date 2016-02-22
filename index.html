@@ -10,7 +10,7 @@
 <meta content="#5670d4" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="http://lwlss.github.io/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/first-post/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/html-article/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -59,19 +59,35 @@
             
 
 <div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/first-post/" class="u-url">First Post</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/html-article/" class="u-url">HTML article</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
                 Conor Lawless
             </span></p>
-            <p class="dateline"><a href="posts/first-post/" rel="bookmark"><time class="published dt-published" datetime="2016-02-22T21:58:44Z" title="2016-02-22 21:58">2016-02-22 21:58</time></a></p>
+            <p class="dateline"><a href="posts/html-article/" rel="bookmark"><time class="published dt-published" datetime="2016-02-14T13:48:35Z" title="2016-02-14 13:48">2016-02-14 13:48</time></a></p>
         </div>
     </header><div class="e-content entry-content">
-    <div>
-<p>Write your post here.</p>
-<p>First post!</p>
+    <article><h1>Testing HTML</h1>
+
+<p>One of the nice things about <a href="https://getnikola.com/">Nikola</a> is that you have several different markup options for writing your articles.  This article is written using <a href="http://www.w3schools.com/html/html_intro.asp">HTML</a>.</p>
+
+<p>It's possible to write code:</p>
+
+<pre>
+	# Logistic growth model #
+	logist=function(K,r,g,t) (K*g*exp(r*t))/(K+g*(exp(r*t)-1))
+
+	# Generalised logistic growth model #
+	# Solution of dx/dt = r*x*(1-(x/K)^v)
+	Glogist=function(K,r,g,v,t) K/(1+(-1+(K/g)^v)*exp(-r*v*t))^(1/v)
+</pre>
+
+<p>
+And it's possible to write maths with <a href="https://www.mathjax.org/">MathJax</a>: 
+$$\(e^{ix} = \cos x + i\sin x\)$$
+</p>
+</article>
 </div>
-    </div>
     </article>
 </div>
 
