@@ -1,0 +1,13 @@
+<h1>Testing Markdown</h1>
+<p>One of the nice things about <a href="https://getnikola.com/">Nikola</a> is that you have several different markup options for writing your articles.  This article is written using <a href="https://daringfireball.net/projects/markdown/basics">Markdown</a>.</p>
+<p>It's possible to write code:</p>
+<pre class="code literal-block"><span class="c1"># Logistic growth model #</span>
+logist<span class="o">&lt;-</span><span class="kr">function</span><span class="p">(</span>K<span class="p">,</span>r<span class="p">,</span>g<span class="p">,</span><span class="kp">t</span><span class="p">)</span> <span class="p">(</span>K<span class="o">*</span>g<span class="o">*</span><span class="kp">exp</span><span class="p">(</span>r<span class="o">*</span><span class="kp">t</span><span class="p">))</span><span class="o">/</span><span class="p">(</span>K<span class="o">+</span>g<span class="o">*</span><span class="p">(</span><span class="kp">exp</span><span class="p">(</span>r<span class="o">*</span><span class="kp">t</span><span class="p">)</span><span class="m">-1</span><span class="p">))</span>
+
+<span class="c1"># Generalised logistic growth model #</span>
+<span class="c1"># Solution of dx/dt = r*x*(1-(x/K)^v)</span>
+Glogist<span class="o">&lt;-</span><span class="kr">function</span><span class="p">(</span>K<span class="p">,</span>r<span class="p">,</span>g<span class="p">,</span>v<span class="p">,</span><span class="kp">t</span><span class="p">)</span> K<span class="o">/</span><span class="p">(</span><span class="m">1</span><span class="o">+</span><span class="p">(</span><span class="m">-1</span><span class="o">+</span><span class="p">(</span>K<span class="o">/</span>g<span class="p">)</span><span class="o">^</span>v<span class="p">)</span><span class="o">*</span><span class="kp">exp</span><span class="p">(</span><span class="o">-</span>r<span class="o">*</span>v<span class="o">*</span><span class="kp">t</span><span class="p">))</span><span class="o">^</span><span class="p">(</span><span class="m">1</span><span class="o">/</span>v<span class="p">)</span>
+</pre>
+
+
+<p>I'm not sure how to write math with <a href="https://www.mathjax.org/">MathJax</a>.</p>

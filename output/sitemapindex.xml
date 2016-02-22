@@ -7,14 +7,14 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://lwlss.github.io/galleries/rss.xml</loc>
-  <lastmod>2016-02-22T21:58:00Z</lastmod>
+  <lastmod>2016-02-22T22:18:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://lwlss.github.io/rss.xml</loc>
-  <lastmod>2016-02-22T22:11:00Z</lastmod>
+  <lastmod>2016-02-22T22:18:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://lwlss.github.io/sitemap.xml</loc>
-  <lastmod>2016-02-22T22:11:00Z</lastmod>
+  <lastmod>2016-02-22T22:18:00Z</lastmod>
  </sitemap>
 </sitemapindex>
